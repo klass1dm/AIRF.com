@@ -2,6 +2,7 @@
   "name": "revenueguard-ai",
   "version": "1.0.0",
   "description": "RevenueGuard AI - Website Revenue Optimization Platform",
+  "type": "module",
   "main": "index.html",
   "scripts": {
     "dev": "vercel dev",
