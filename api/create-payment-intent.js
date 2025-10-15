@@ -1,5 +1,6 @@
 // Vercel Function for creating payment intents
-const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
+import Stripe from 'stripe';
+const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 
 const PRICING = {
   starter: 52500, // $525 in cents
